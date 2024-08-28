@@ -1,5 +1,5 @@
 {
-  "name": "@hashlips-lab/art-engine",
+  "name": "@gojohash/art-engine",
   "version": "2.0.0-alpha7",
   "license": "MIT",
   "contributors": [
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hashlips-lab/hashlips-lab.git"
+    "url": "https://github.com/Omstachu/gojohash"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
