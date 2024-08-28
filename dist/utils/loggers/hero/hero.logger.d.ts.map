@@ -1,0 +1,1 @@
+{"version":3,"file":"hero.logger.d.ts","sourceRoot":"","sources":["../../../../src/utils/loggers/hero/hero.logger.ts"],"names":[],"mappings":"AAGA,cAAM,UAAU;IACd,OAAO,CAAC,SAAS,CAAS;IAC1B,OAAO,CAAC,OAAO,CAAC;;IAYT,MAAM;IAIN,SAAS;CAejB;AAED,QAAA,MAAM,cAAc,YAAmB,CAAC;AAExC,eAAe,cAAc,CAAC"}

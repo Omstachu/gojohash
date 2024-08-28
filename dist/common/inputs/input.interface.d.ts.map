@@ -1,0 +1,1 @@
+{"version":3,"file":"input.interface.d.ts","sourceRoot":"","sources":["../../../src/common/inputs/input.interface.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,uBAAuB;IACtC,IAAI,EAAE,MAAM,CAAC;CACd;AAED,MAAM,CAAC,OAAO,WAAW,cAAc,CAAC,aAAa;IACnD,IAAI,EAAE,CAAC,KAAK,EAAE,uBAAuB,KAAK,OAAO,CAAC,IAAI,CAAC,CAAC;IACxD,IAAI,EAAE,MAAM,OAAO,CAAC,aAAa,CAAC,CAAC;CACpC"}

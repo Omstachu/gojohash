@@ -1,0 +1,1 @@
+{"version":3,"file":"item-attributes-generator.interface.d.ts","sourceRoot":"","sources":["../../../src/common/generators/item-attributes-generator.interface.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,sCAAsC,wCACZ,CAAC;AAExC,MAAM,CAAC,OAAO,WAAW,gCAAgC;IACvD,GAAG,EAAE,MAAM,CAAC;IACZ,UAAU,EAAE;QACV,CAAC,SAAS,EAAE,MAAM,GAAG,MAAM,CAAC;KAC7B,CAAC;CACH"}
