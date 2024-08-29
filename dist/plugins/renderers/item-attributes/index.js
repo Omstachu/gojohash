@@ -30,7 +30,6 @@ class ItemAttributesRenderer {
             renders[itemUid] = [
                 supportedAttributes.reduce((mergedAttributes, newAttributes) => {
                     mergedAttributes.data.dna.push(newAttributes.dna);
-                    mergedAttributes.data.name = this.name(itemUid);
                     mergedAttributes.data.fileName = this.fileName(itemUid);
                     mergedAttributes.data.rarity = this.rarity(itemUid)
                     for (const key in newAttributes.attributes) {
@@ -39,6 +38,7 @@ class ItemAttributesRenderer {
                         }
                         mergedAttributes.data.attributes[key].push(newAttributes.attributes[key]);
                     }
+                    mergedAttributes.data.name = this.name(itemUid, mergedAttributes.data.attributes);
                     mergedAttributes.data.description = this.description(mergedAttributes.data.attributes);
                     return mergedAttributes;
                 }, {

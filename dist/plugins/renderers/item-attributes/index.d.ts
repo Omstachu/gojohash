@@ -5,7 +5,7 @@ export declare class ItemAttributesRenderer implements RendererInterface<Attribu
     private name;
     private description;
     constructor(constructorProps?: {
-        name?: (itemUid: string) => string;
+        name?: (itemUid: string, attributes: AttributesRendererInterface["attributes"]) => string;
         description?: (attributes: AttributesRendererInterface["attributes"]) => string;
     });
     init(props: RendererInitPropsInterface): Promise<void>;
